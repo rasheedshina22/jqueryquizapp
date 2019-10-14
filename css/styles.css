@@ -6,9 +6,9 @@
 body {
   margin: 0;
   padding: 0;
-  /* background-image: url("../images/bg.jpg"); */
+  background-image: url("../images/bg2.jpg");
   background-size: cover;
-  color: #000;
+  color: #fff;
   text-align: center;
   padding-top: 100px;
 }
@@ -17,4 +17,5 @@ body {
   margin-top: 100px;
   display: grid;
   grid-template-columns: 2fr 2fr;
+
 }
