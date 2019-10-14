@@ -25,7 +25,7 @@ const renderSuccess = () => {
   if (score >= 50) {
     $(".score").html(` Well done! You scored ${score}`);
   } else {
-    $("<p>You can do it. Refresh the brower and try again </p>").appendTo($(".question-question"));
+    $("<p>You can do it. Refresh the browser and try again </p>").appendTo($(".question-question"));
 
     $(".score").html(` Hmmmmm! You scored ${score}`);
   }
